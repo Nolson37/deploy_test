@@ -27,8 +27,7 @@ install_plugin Capistrano::SCM::Git
 #   https://github.com/capistrano/passenger
 #
 require 'capistrano/rails'
-require "capistrano/passenger"
-require "capistrano/rbenv"
+require 'capistrano/rbenv'
 set :rbenv_type, :user
 set :rbenv_ruby, '2.5.0p0'
 
