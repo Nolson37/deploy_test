@@ -41,6 +41,7 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
@@ -48,6 +49,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'capistrano', '~> 3.10', '>= 3.10.2'
+  gem 'capistrano-rails', '~> 1.3', '>= 1.3.1'
+  gem 'capistrano-passenger', '~> 0.2.0'
+  gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.3'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
